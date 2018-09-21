@@ -1,4 +1,3 @@
-require 'GemClass'
+require './GemMethods'
 
-newGem = GemClass.new
-newGem
+newGem = GemMethods.new

@@ -1,11 +1,11 @@
-class GemClass
-        def gemInfo(type, color, price)
+class GemMethods
+        def gemInitialize(type, color, price)
                 @type = type
                 @color = color
                 @price = 0.00
         end
 
-        def getGemInfo()
+        def getGemInfo
                 puts "please input the correct gem info when prompted"
                 puts "what is the type of the gem?"
                 @type = gets.chomp
@@ -15,7 +15,7 @@ class GemClass
                 @price = gets.chomp
         end
 
-        def displayGemInfo()
+        def displayGemInfo
                 "your gem is a #{@typ}"
                 "your gem is #{@color} in color"
                 "your gem is priced at #{@price}"
